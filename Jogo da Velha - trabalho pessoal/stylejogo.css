@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('45632885-a-jogos-do-jogo-da-velha-bandeira-vetor.jpg');
+    background-size: cover;
+    background-color: rgba(154, 145, 145, 0.5);
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 120px);
+    gap: 5px;
+    background-color: #f1eeee;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 15, 14);
+    width: 100px;
+    height: 120px;
+    font-size: 40px;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.item:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(83, 87, 82);
+    width: 100px;
+    height: 120px;
+    font-size: 40px;
+    border-radius: 4px;
+}
